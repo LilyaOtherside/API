@@ -57,7 +57,7 @@ function addConsentCyclically() {
 
   // Create the DynamoDB item
   const params = {
-    TableName: 'your_table_name',
+    TableName: 'helpful-gold-newtCyclicDB',
     Item: {
       key: { S: consent.key },
       text: { S: consent.text }
