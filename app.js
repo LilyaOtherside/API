@@ -9,8 +9,8 @@ app.use(bodyParser.json());
 
 // Configure AWS credentials and region
 AWS.config.update({
-  accessKeyId: 'ASIAQDSB7LRVU3YBWIMI',
-  secretAccessKey: 'by3eD/AftL1cQexZsplVOHb4EOrhq4SFD054S9sU',
+  accessKeyId: 'ASIAQDSB7LRVVHEFJ67I',
+  secretAccessKey: 'rYtKyFm8iwC8iDojijhNAFSuZ87XHu7VSP839rTK',
   region: 'eu-west-2'
 });
 
