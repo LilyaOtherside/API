@@ -62,7 +62,7 @@ app.post('/consent', (req, res) => {
 // Update a consent
 app.put('/consent/:key', (req, res) => {
   const params = {
-    TableName: 'your_table_name',
+    TableName: 'helpful-gold-newtCyclicDB',
     Key: {
       key: { S: req.params.key }
     },
